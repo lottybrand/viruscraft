@@ -1,0 +1,32 @@
+
+Results
+
+a = intercept 
+b = effect of playing the game
+
+Virus infection
+
+modelInfect
+  mean  sd 5.5% 94.5% n_eff Rhat
+a 0.47 0.3 0.01  0.95  4237    1
+b 1.22 0.5 0.44  2.06  4056    1
+
+Virus Mutation
+
+modelMutate
+    mean   sd  2.5% 97.5% n_eff Rhat
+a  1.15 0.33  0.51  1.82  3402    1
+b -0.16 0.47 -1.06  0.77  3272    1
+
+Virus Evolution
+
+modelNewHost
+    mean   sd  2.5% 97.5% n_eff Rhat
+a -0.16 0.29 -0.73  0.40  3811    1
+b  0.26 0.42 -0.57  1.08  3937    1
+
+Confidence: 
+
+Higher Edu: 9 increased confidence, 6 stayed same, 3 decreased
+No Higher Edu: 1 increased, 2 stayed same, 6 decreased. 
+
